@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/albumshare"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/albumsend"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+    <group >
+        <item
+            android:id="@+id/album1"
+            android:icon="@drawable/gacon"
+            android:title="@string/all_song" />
+
+    </group>
+
+</menu>

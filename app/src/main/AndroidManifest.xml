@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exercise2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image_default"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gacon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.exercise2.view.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:launchMode="singleTop"
+            android:name=".view.activity.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity android:name=".view.activity.SongDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <provider
+            android:readPermission="@string/permission_read_content_provider"
+            android:authorities="com.thanh.data"
+            android:exported="true"
+            android:name=".model.database.DataSongProvider" >
+
+        </provider>
+
+        <receiver android:name=".listner.SongReceiver">
+            <intent-filter>
+                <action android:name="createSong"/>
+                <action android:name="startSong"/>
+                <action android:name="pauseSong"/>
+                <action android:name="nextSong"/>
+                <action android:name="backSong"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".view.widget.MusicAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/music_widget_info"/>
+        </receiver>
+
+        <service android:name=".services.SongService"/>
+
+        <service android:name=".services.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+
+    </application>
+
+</manifest>

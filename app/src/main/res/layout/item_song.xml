@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_image_item_song">
+
+    <RelativeLayout
+        android:id="@+id/spaceMenu"
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/xxx"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_recycle_bin"
+            android:tint="@color/hightLight"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/infoItem"
+        android:layout_toRightOf="@+id/spaceMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/size_image_item_song"
+            android:layout_height="@dimen/size_image_item_song">
+            <TextView
+                android:id="@+id/tvNumberSong"
+                android:textSize="@dimen/text_size_name_song"
+                android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvNameSong"
+            android:textColor="@android:color/white"
+            android:layout_toLeftOf="@id/imgSong"
+            android:layout_marginEnd="@dimen/image_margin_top_bot"
+            android:layout_marginStart="@dimen/margin_start_row"
+            android:layout_marginTop="@dimen/image_margin_top_bot"
+            android:textSize="@dimen/text_size_name_song"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height" />
+
+        <TextView
+            android:id="@+id/tvTimeSong"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_time_song"
+            android:layout_marginBottom="@dimen/image_margin_top_bot"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_start_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgSong"
+            android:layout_marginEnd="@dimen/image_margin_top_bot"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/size_image_item_song"
+            android:layout_height="@dimen/size_image_item_song" />
+
+        <ImageView
+            android:id="@+id/imgSongWidget"
+            android:layout_marginEnd="@dimen/image_margin_top_bot"
+            android:visibility="gone"
+            android:tint="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/size_image_item_song"
+            android:layout_height="@dimen/size_image_item_song" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

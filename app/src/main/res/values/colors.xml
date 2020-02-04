@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD9300D3</color>
+    <color name="colorPrimaryDark">#FD9300D3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTitleFragment">#DA3AFF</color>
+    <color name="colorBackGround">#00000000</color>
+    <color name="colorToolBar">#FFFFFF</color>
+    <color name="hightLight">#8000FF</color>
+    <color name="colorBackGroundWidget">#32000000</color>
+    <color name="colorRipplePulse">#417600FC</color>
+</resources>

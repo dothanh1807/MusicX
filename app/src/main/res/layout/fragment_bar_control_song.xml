@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragmentBarControlBase"
+    android:onClick="onClick">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <com.example.exercise2.view.customizeview.CircleImageVIew
+            android:id="@+id/imageArtist"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textViewNameSong"
+            android:textColor="@color/hightLight"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_width="220dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/textViewNameSinger"
+            android:textColor="@color/hightLight"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="35dp"
+            android:textSize="14dp"
+            android:layout_width="200dp"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:onClick="onClick"
+            android:visibility="invisible"
+            android:id="@+id/imageStart"
+            android:src="@android:drawable/ic_media_play"
+            android:tint="@color/hightLight"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/imagePause"
+            android:onClick="onClick"
+            android:src="@android:drawable/ic_media_pause"
+            android:tint="@color/hightLight"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

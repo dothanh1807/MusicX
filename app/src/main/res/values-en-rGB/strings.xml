@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicX</string>
+    <string name="nav_header_title">List albums</string>
+    <string name="nav_header_title1">List albums</string>
+    <string name="fragment_title_authors">List Authors</string>
+    <string name="fragment_title_albums">List Collections</string>
+    <string name="setting_group_1">SETTINGS</string>
+    <string name="setting_group_2">FEATURE</string>
+    <string name="setting_group_3">INFOMATIONS</string>
+    <string name="setting_group_1_item1">Change theme</string>
+    <string name="setting_group_1_item2">Pick Timer</string>
+    <string name="setting_group_1_item3">Change Launguage</string>
+    <string name="setting_group_2_item1">Sort by name</string>
+    <string name="setting_group_2_item2">Sort by date</string>
+    <string name="setting_group_2_item3">Sort by size</string>
+    <string name="setting_group_2_item4">Sort by alums</string>
+    <string name="setting_group_3_item1">Version</string>
+    <string name="setting_group_3_item2">Time Update</string>
+    <string name="setting_group_3_item3">Owner Infomation</string>
+    <string name="all_song">All songs</string>
+    <string name="non_lyrics">"There is no word for this song "</string>
+    <string name="time">Time song -</string>
+    <string name="tab_song">SONGS</string>
+    <string name="tab_setting">SETTINGS</string>
+    <string name="tab_play_list">LIST</string>
+    <string name="tab_current_song">SONGS</string>
+    <string name="tab_lyrics_song">LYRICS</string>
+</resources>

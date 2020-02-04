@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNameSongLyrics"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_name_song"
+        android:textColor="@color/hightLight"
+        android:layout_marginTop="@dimen/image_margin_top_bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvNameArtistLyrics"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_time_song"
+        android:textColor="@color/hightLight"
+        android:layout_below="@+id/tvNameSongLyrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLyrics"
+        android:layout_marginTop="@dimen/image_margin_top_bot"
+        android:layout_below="@id/tvNameArtistLyrics"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/non_lyrics"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

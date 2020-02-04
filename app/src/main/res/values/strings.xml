@@ -1,0 +1,44 @@
+<resources>
+    <string name="permission_read_content_provider">NGUYEN_DO_THANH</string>
+
+    <string name="app_name">MusicX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Danh mục albums</string>
+    <string name="nav_header_subtitle">Nguyễn Đỗ Thanh</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_header_title1">Danh mục album</string>
+    <string name="fragment_title_authors">Danh Sách Tác Giả</string>
+    <string name="fragment_title_albums">Danh Sách Bộ Sưu Tập</string>
+
+    <string name="setting_group_1">CÀI ĐẶT</string>
+    <string name="setting_group_2">TÍNH NĂNG</string>
+    <string name="setting_group_3">THÔNG TIN</string>
+
+    <string name="setting_group_1_item1">Đổi theme</string>
+    <string name="setting_group_1_item2">Hẹn giờ</string>
+    <string name="setting_group_1_item3">Đổi ngôn ngữ</string>
+    <string name="setting_group_1_item4">Chưa nghĩ ra</string>
+
+    <string name="setting_group_2_item1">Sắp xếp bài hát theo tên</string>
+    <string name="setting_group_2_item2">Sắp xếp bài hát theo ngày</string>
+    <string name="setting_group_2_item3">Sắp xếp bài hát theo kích thước</string>
+    <string name="setting_group_2_item4">Sắp xếp bài hát theo albums</string>
+
+    <string name="setting_group_3_item1">Số phiên bản</string>
+    <string name="setting_group_3_item2">Ngày cập nhật</string>
+    <string name="setting_group_3_item3">Thông tin chủ sở hữu</string>
+    <string name="setting_group_3_item4">Chưa nghĩ ra</string>
+
+    <string name="all_song">Tất cả bài hát</string>
+    <string name="non_lyrics">Không có lời cho bài hát này</string>
+    <string name="time">Thời gian - </string>
+
+    <string name="tab_song">BÀI HÁT</string>
+    <string name="tab_setting">CÀI ĐẶT</string>
+    <string name="tab_play_list">DANH SÁCH</string>
+    <string name="tab_current_song">BÀI HÁT</string>
+    <string name="tab_lyrics_song">LỜI BÀI HÁT</string>
+
+</resources>

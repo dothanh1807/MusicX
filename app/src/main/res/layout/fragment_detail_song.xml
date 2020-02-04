@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNameSongDetails"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_name_song"
+        android:textColor="@color/hightLight"
+        android:layout_marginTop="@dimen/image_margin_start_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvNameArtistDetails"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_time_song"
+        android:textColor="@color/hightLight"
+        android:layout_below="@+id/tvNameSongDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_above="@+id/spaceBarControlDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.exercise2.view.customizeview.CircleImageVIew
+            android:id="@+id/imgSongDetail"
+            android:onClick="onClick"
+            android:layout_centerInParent="true"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:tint="@color/hightLight"
+        android:layout_marginBottom="@dimen/image_margin_start_end"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/spaceBarControlDetail"
+        android:src="@drawable/heart2"
+        android:layout_width="@dimen/image_margin_start_end"
+        android:layout_height="@dimen/image_margin_start_end" />
+
+    <FrameLayout
+        android:id="@+id/spaceBarControlDetail"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
